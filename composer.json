@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "facebook/graph-sdk": "^5.7",
+        "facebook/graph-sdk": "dev-master#5.x",
         "graham-campbell/manager": "^4.4",
         "illuminate/contracts": "^7.0|^8.0",
         "illuminate/support": "^7.0|^8.0"
@@ -52,6 +52,12 @@
             "Vinkla\\Tests\\Facebook\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/apysais/php-graph-sdk"
+        }
+     ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
