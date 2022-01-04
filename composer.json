@@ -55,7 +55,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/apysais/php-graph-sdk"
+            "url": "https://github.com/asimgilani/php-graph-sdk"
         }
      ],
     "minimum-stability": "dev",
